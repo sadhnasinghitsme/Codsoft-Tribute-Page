@@ -1,0 +1,125 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+
+    border: none;
+    border-radius: 0;
+    background-color: rgba(0,0,0,0.2);
+    backdrop-filter: blur(20px);
+    margin: 0;
+}
+
+.navbar.navbar-brand {
+    font-size: 20px;
+    color: #f03535;
+    font-family: 'work Sans' , sans-serif;
+}
+
+.head-box {
+    width: 100%;
+    height: 100vh;
+    background-image: url('selena\ gomez1.jpg'), linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: 100% 1050px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.head-box .heading {
+    width: 100%;
+    margin-top: 5%;
+}
+
+.head-box .heading h1 {
+    font-size: 100%;
+    color: #f03535;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.head-box .heading h3 span {
+    color: #fff;
+    cursor: pointer;
+}
+
+.head-box .heading h3 span:hover {
+    color: #f03535;
+    background-color: #fff;
+}
+
+.head-box .heading p {
+    width: 40%;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.4);
+    font-family: 'Work Sans', sans-serif;
+    text-indent: 80px;
+    margin-top: 3%;
+}
+.container.row.col-sm-6{
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.contrainer.container.row.col-sm-6.center-block
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container .row .col-sm-6 .center-block h1 {
+    font-size: 40px;
+    color: #f03535;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+}
+
+.container.row.col-sm-6.center-block p {
+    font-size: 16px;
+    font-family: 'Work Sans',sans-serif;
+    color: #000;
+    text-align: justify;
+    text-indent: 50px;
+    font-weight:400 ;
+    letter-spacing: 1 px;
+
+}
+
+footer .container-fluid {
+    background-color: #f03535;
+}
+
+footer .container-fluid .container .row .col-sm-4 {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Work Sans', sans-serif;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+footer .container-fluid .container .row .col-sm-4 .btn {
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Work Sans', sans-serif;
+    background-color: #f03535;
+    font-weight: 300;
+    transition: all .5s;
+}
+
+footer .container-fluid .container .row .col-sm-4 .btn:hover {
+    color: #efebeb;
+    background-color: #ed0a0a;
+}
